@@ -3,9 +3,10 @@ import { ModeToggleService } from '../../../services/mode-toggle/mode-toggle.ser
 import { Mode } from '../../../services/mode-toggle/mode-toggle.model';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss'],
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.scss'],
+    standalone: false
 })
 export class HeaderComponent implements OnInit {
   theme!: Mode;
